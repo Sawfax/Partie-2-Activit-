@@ -1,2 +1,2 @@
-# Partie-2-Activit-
-Excercice Git &amp; GitHub 
+# Partie-2-Activité
+Excercice Git et GitHub 
