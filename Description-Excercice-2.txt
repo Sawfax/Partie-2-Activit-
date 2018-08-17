@@ -1,0 +1,7 @@
+Activité Partie 2 : Partager un repository sur GitHub
+Creation d'un repo pour montrer les compréhension des cours precents.
+Crée et Gérer son code avec Git et GitHub
+
+L'URL de mon repository 
+https://github.com/Sawfax/Partie-2-Activit-
+
