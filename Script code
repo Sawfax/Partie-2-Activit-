@@ -1,0 +1,142 @@
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ touch Description-Excercice-2.txt
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Description-Excercice-2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git add Description-Excercice-2.txt
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git commit -m "Creation d'un fichier txt"
+[master bda8e9c] Creation d'un fichier txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Description-Excercice-2.txt
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Sawfax/Partie-2-Activit-.git
+   3491083..bda8e9c  master -> master
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git pull origin master
+From https://github.com/Sawfax/Partie-2-Activit-
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ ls
+Description-Excercice-2.txt  README.md
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ cd Description-Excercice-2.txt
+bash: cd: Description-Excercice-2.txt: Not a directory
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ ls
+Description-Excercice-2.txt  README.md
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ cat Description-Excercice-2.txt
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ vim Description-Excercice-2.txt
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ cat Description-Excercice-2.txt
+Activité Partie 2 : Partager un repository sur GitHub
+Creation d'un repo pour montrer les compréhension des cours precents.
+Crée et Gérer son code avec Git et GitHub
+
+L'URL de mon repository
+https://github.com/Sawfax/Partie-2-Activit-
+
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git push origin master
+Everything up-to-date
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git pull origin master
+From https://github.com/Sawfax/Partie-2-Activit-
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Description-Excercice-2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git add Description-Excercice-2.txt
+warning: LF will be replaced by CRLF in Description-Excercice-2.txt.
+The file will have its original line endings in your working directory.
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git commit -m "Description de l'excercice"
+[master 3c0a6ec] Description de l'excercice
+ 1 file changed, 7 insertions(+)
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 482 bytes | 482.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Sawfax/Partie-2-Activit-.git
+   bda8e9c..3c0a6ec  master -> master
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+PC@DESKTOP-AGSSUBH MINGW64 ~/Dossier-Git/Partie-2-Activit- (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
